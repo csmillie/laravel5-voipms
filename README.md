@@ -49,10 +49,5 @@ Creating a Call
 <?php
 
 Use Voipms;
-
-Twilio::call('+18085551212', 'http://foo.com/call.xml');
+Voipms::call('+18085551212', 'http://foo.com/call.xml');
 ```
-
-### License
-
-laravel-twilio is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
